@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     //1
-    cout << "������� ����������� ����� A, B, C" << endl;
+    cout << "ВВести натуральные числа A, B, C" << endl;
     int a, b, c;
     cin >> a >> b >> c;
     if (((a + b) % c == 0) && (c % b == 0))
@@ -27,19 +27,19 @@ int main()
     
     {
     case 0:
-        cout << "��� ������" << endl;
+        cout << "все хорошо" << endl;
         break;
     case 1:
-        cout << "������ ������ �����" << endl;
+        cout << "ошибка чтения файла" << endl;
         break;
     case 2:
-        cout << "������ ������ �����" << endl;
+        cout << "ошибка записи файла" << endl;
         break;
     case 3:
-        cout << "�� ��� ���� ����������" << endl;
+        cout << "не все поля определены" << endl;
         break;
     default:
-        cout << "������ �� ����������";
+        cout << "введено неверное значение";
         break;
     }
 
