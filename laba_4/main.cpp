@@ -4,9 +4,8 @@ using namespace std;
 //Var 4
 int main()
 {
-    /*
     //1
-    cout << "Введите натуральные числа A, B, C" << endl;
+    cout << "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ A, B, C" << endl;
     int a, b, c;
     cin >> a >> b >> c;
     if (((a + b) % c == 0) && (c % b == 0))
@@ -18,26 +17,41 @@ int main()
         cout << ((a + b) / c) + (b * c) << endl;
     }
     else
-        cout << a - b + c << endl; */
+        cout << a - b + c << endl;
+
+
+    //2
     int n;
     cin >> n;
     switch (n)
     
     {
     case 0:
-        cout << "все хорошо" << endl;
+        cout << "пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ" << endl;
         break;
     case 1:
-        cout << "ошибка чтения файла" << endl;
+        cout << "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ" << endl;
         break;
     case 2:
-        cout << "ошибка записи файла" << endl;
+        cout << "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ" << endl;
         break;
     case 3:
-        cout << "не все поля определены" << endl;
+        cout << "пїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ" << endl;
         break;
     default:
-        cout << "ошибка не существует";
+        cout << "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ";
         break;
     }
+
+
+    //3
+    int c;
+    cin >> c;
+    if (c == -1)
+        cout << "Negative number" << endl;
+    else if (c == 1)
+        cout << "Pozitive number" << endl;
+    else
+        cout << "Error";
+
 }
