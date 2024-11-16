@@ -1,0 +1,3 @@
+C:/Users/Виталия/Desktop/test/build/CMakeFiles/example.dir
+C:/Users/Виталия/Desktop/test/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Виталия/Desktop/test/build/CMakeFiles/ZERO_CHECK.dir
