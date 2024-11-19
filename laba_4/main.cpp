@@ -45,11 +45,11 @@ int main()
 
 
     //3
-    int c;
-    cin >> c;
-    if (c == -1)
+    int d;
+    cin >> d;
+    if (d == -1)
         cout << "Negative number" << endl;
-    else if (c == 1)
+    else if (d == 1)
         cout << "Pozitive number" << endl;
     else
         cout << "Error";
