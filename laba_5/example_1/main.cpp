@@ -17,7 +17,8 @@ int main()
         cin >> n;
         if (n <= 0) break;
         cnt += 1;
-        if (n % 10 == 0 || n % 10 == 7) 
+        int ost = n % 10;
+        if (ost == 0 || ost == 7) 
         {
             s += n;
             if (n > mx) 
