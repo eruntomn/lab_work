@@ -13,10 +13,12 @@ int main()
 	const int N_Max = 10000;
 	int mas[N_Max];
 
-	cout << "Введите размерность последовательности";
+	cout << "Введите размерность последовательности: ";
 
 	int n;
 	cin >> n;
+
+	cout << "Введите последовательность: " << endl;
 
 	for (int i = 0; i < n; i++)
 		cin >> mas[i];
@@ -57,7 +59,7 @@ int main()
 			}
 
 		}
-
+	cout << "Результат: "<< endl;
 	for (int i = 0; i < n; i++)
 		cout << mas[i] << " ";
 }
