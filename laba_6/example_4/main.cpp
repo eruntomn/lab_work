@@ -21,7 +21,7 @@ int main()
 	for (int i = 0; i < n; i++)
 		cin >> mas[i];
 
-	for (int i = 0; i < n; i++)
+	for (int i = 0; i < n; )
 	{
 		int x = mas[i];
 		int y = 0;
@@ -32,14 +32,14 @@ int main()
 		}
 		if (mas[i] == y)
 		{
-			for (int j = i; j < n - 1; j++)
-				mas[j] = mas[j + 1];
-			i--;
+			for (int j = i+1; j < n; j++)
+				mas[j-1] = mas[j];
 			n--;
 		}
+		else i++;
 	}
 
-	for (int i = 0; i < n; i++)
+	for (int i = 0; i < n; )
 	{
 		bool flag = true;
 		for (int k = 2; k < sqrt(mas[i]) + 1; k++)
@@ -55,9 +55,10 @@ int main()
 		{
 			for (int j = n; j > i; --j)
 				mas[j] = mas[j - 1];
-			i++;
+			i+=2;
 			n++;
 		}
+		else i++;
 	}
 	cout << "Результат: " << endl;
 	for (int i = 0; i < n; i++)
