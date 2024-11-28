@@ -9,7 +9,7 @@ int main()
 	int n, m;
 	std::cin >> n >> m;
 	int A[100][100];
-
+    	std::cout << "Введите элементы матрицы: ";
 	for (int i = 0; i < n; i++) 
 		for (int j = 0; j < m; j++)
 		{
@@ -35,7 +35,7 @@ int main()
 	for (int x = 0; x < n; x++) {
 		for(int y = 0; y < m; y++)
 		{
-			if ((x) == num_str) std::cout << mn << " ";
+			if (x == num_str) std::cout << mn << " ";
 			else std::cout << A[x][y] << " ";
 		}
 		std::cout << std::endl;
