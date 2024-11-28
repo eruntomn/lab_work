@@ -27,7 +27,7 @@ int main()
 		}
 		if (s < mn) {
 			mn = s;
-			num_str = i+1; 
+			num_str = i; 
 		}
 	}
 	std::cout << std::endl;
@@ -35,7 +35,7 @@ int main()
 	for (int x = 0; x < n; x++) {
 		for(int y = 0; y < m; y++)
 		{
-			if ((x+1) == num_str) std::cout << mn << " ";
+			if ((x) == num_str) std::cout << mn << " ";
 			else std::cout << A[x][y] << " ";
 		}
 		std::cout << std::endl;
