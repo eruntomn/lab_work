@@ -43,21 +43,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Debug-97f2d8d0c173c114c196.json",
+					"jsonFile" : "target-ALL_BUILD-Debug-d2b47aa33860acc8ed24.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-Debug-dd5f16fa94fcbf5a2051.json",
+					"jsonFile" : "target-ZERO_CHECK-Debug-055e24b724e538ea3df5.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "example::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-example-Debug-d3ae4bacabdb969eeb37.json",
+					"jsonFile" : "target-example-Debug-f5bcefd2d03742d24dd4.json",
 					"name" : "example",
 					"projectIndex" : 0
 				}
@@ -105,21 +105,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Release-97f2d8d0c173c114c196.json",
+					"jsonFile" : "target-ALL_BUILD-Release-d2b47aa33860acc8ed24.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-Release-dd5f16fa94fcbf5a2051.json",
+					"jsonFile" : "target-ZERO_CHECK-Release-055e24b724e538ea3df5.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "example::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-example-Release-06904e3f8c7032584be6.json",
+					"jsonFile" : "target-example-Release-1ede54ec0277e00d2af3.json",
 					"name" : "example",
 					"projectIndex" : 0
 				}
@@ -167,21 +167,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-MinSizeRel-97f2d8d0c173c114c196.json",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-d2b47aa33860acc8ed24.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-dd5f16fa94fcbf5a2051.json",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-055e24b724e538ea3df5.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "example::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-example-MinSizeRel-9ab8cd6148e5dbbae756.json",
+					"jsonFile" : "target-example-MinSizeRel-521d834a4c1ba23b330c.json",
 					"name" : "example",
 					"projectIndex" : 0
 				}
@@ -229,21 +229,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-97f2d8d0c173c114c196.json",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-d2b47aa33860acc8ed24.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-dd5f16fa94fcbf5a2051.json",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-055e24b724e538ea3df5.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "example::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-example-RelWithDebInfo-69d0a8367f445924aa3b.json",
+					"jsonFile" : "target-example-RelWithDebInfo-8a30e787b23b1ed3bee1.json",
 					"name" : "example",
 					"projectIndex" : 0
 				}
@@ -253,8 +253,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/\u0412\u0438\u0442\u0430\u043b\u0438\u044f/Desktop/test/build",
-		"source" : "C:/Users/\u0412\u0438\u0442\u0430\u043b\u0438\u044f/Desktop/test"
+		"build" : "C:/Git/lab_work/test/build",
+		"source" : "C:/Git/lab_work/test"
 	},
 	"version" : 
 	{

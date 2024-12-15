@@ -27,7 +27,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/\u0412\u0438\u0442\u0430\u043b\u0438\u044f/Desktop/test/build"
+			"value" : "c:/Git/lab_work/test/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -431,7 +431,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/\u0412\u0438\u0442\u0430\u043b\u0438\u044f/Desktop/test/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/Git/lab_work/test/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -491,7 +491,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/\u0412\u0438\u0442\u0430\u043b\u0438\u044f/Desktop/test"
+			"value" : "C:/Git/lab_work/test"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -615,7 +615,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/mt.exe"
+			"value" : "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x86/mt.exe"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -703,7 +703,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/rc.exe"
+			"value" : "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x86/rc.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER_WORKS",
@@ -1027,7 +1027,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/\u0412\u0438\u0442\u0430\u043b\u0438\u044f/Desktop/test/build"
+			"value" : "C:/Git/lab_work/test/build"
 		},
 		{
 			"name" : "example_IS_TOP_LEVEL",
@@ -1051,7 +1051,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/\u0412\u0438\u0442\u0430\u043b\u0438\u044f/Desktop/test"
+			"value" : "C:/Git/lab_work/test"
 		}
 	],
 	"kind" : "cache",

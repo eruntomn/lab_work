@@ -1,6 +1,6 @@
-^C:\USERS\ВИТАЛИЯ\DESKTOP\TEST\CMAKELISTS.TXT
+^C:\GIT\LAB_WORK\TEST\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Виталия/Desktop/test -BC:/Users/Виталия/Desktop/test/build --check-stamp-file C:/Users/Виталия/Desktop/test/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Git/lab_work/test -BC:/Git/lab_work/test/build --check-stamp-file C:/Git/lab_work/test/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
