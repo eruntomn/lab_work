@@ -28,16 +28,16 @@ int main()
 	for (int a = 0; a < n; a++)
 	{
 		int count = 0;
-		bool ne_prost = false;
+		bool prost = false;
 		for (int k = 2; k < sqrt(mas[a]) + 1; k++)
 		{
 			if (mas[a] % k == 0)
 				count += 1;
 		}
-		if (count == 0) ne_prost = true;
-		else ne_prost = false;
+		if (count == 0) prost = true;
+		else prost = false;
 
-		if (ne_prost == true)
+		if (prost == true)
 		{
 			flag = false;
 			break;
