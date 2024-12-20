@@ -73,12 +73,14 @@ bool isNotMore3Consonant(const std::string& s)
 
 void DublicateConsonant(std::string& s) 
 {
-	for(int i = 0; i < s.length(); i++)
+	for(int i = 0; i < s.length();) {
 		if(isConsonant(s[i]))
 		{
 			s.insert(i, 1, s[i]);
-			i++;
+			i+=2;
 		}
+		else i++;
+	}
 }
 
 
@@ -100,13 +102,15 @@ int main()
 	Read(n, words);
 	for(int i = 0; i < n; i++) 
 	{ 
-		if (!isNotMore3Consonant(words[i])) 
+		if (!isNotMore3Consonant(words[i]))
 		{
-			DublicateConsonant(words[i]);
+			Sort(n, words);
+		}
+		else {
 			RemoveEqual(words[i]);
+			DublicateConsonant(words[i]);
 		}
 	}
-	Sort(n, words);
 	Write(n, words);
 	return 0;
 }
