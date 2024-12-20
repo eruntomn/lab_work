@@ -65,7 +65,7 @@ namespace sv
     void SwapOflines(int mas[100][100], int arr[100])
     {
         for (int i = 0; i < 100; i++) {
-            if (arr[i + 1] > arr[i]) {
+            if (prouz(arr[i + 1]) > prouz(arr[i])) {
                 for (int x = 0; x < 100; x++) {
                     int temp = mas[i][x];
                     mas[i][x] = mas[i + 1][x];
