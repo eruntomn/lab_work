@@ -28,7 +28,7 @@ int main()
 	for (int a = 0; a < n; a++)
 	{
 		int count = 0;
-		int ne_prost = false;
+		bool ne_prost = false;
 		for (int k = 2; k < sqrt(mas[a]) + 1; k++)
 		{
 			if (mas[a] % k == 0)
