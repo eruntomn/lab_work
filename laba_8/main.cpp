@@ -100,13 +100,15 @@ int main()
 	Read(n, words);
 	for(int i = 0; i < n; i++) 
 	{ 
-		if (!isNotMore3Consonant(words[i])) 
+		if (!isNotMore3Consonant(words[i]))
 		{
+			Sort(n, words);
+		}
+		else {
 			DublicateConsonant(words[i]);
 			RemoveEqual(words[i]);
 		}
 	}
-	Sort(n, words);
 	Write(n, words);
 	return 0;
 }
