@@ -7,6 +7,8 @@
 
 using namespace std;
 
+// var 4
+
 struct Node
 {
     int info;
