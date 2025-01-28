@@ -32,7 +32,7 @@ void quicksort(int * A, int left, int right)
 
 int main()
 {
-    int A[] = {10, 8, 6, 4, 9, 7, 1, 5, 3};
+    int A[] = {11, 8, 7, 18, 9, 3, 16, 1, 4};
     quicksort(A, 0, 8);
 
     for (int i = 0; i <= 8; i++) cout << A[i] << " ";
