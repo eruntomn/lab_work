@@ -1,44 +1,41 @@
 #include <iostream>
-#include <cmath>
+#include <cstdlib>
 
 using namespace std;
 
-/*Реализуйте быструю сортировку. Изучите, как она работает. 
-Сравните скорость работы с сортировкой обменами.*/
-
-//var 4, example 2
-
-void QuickSort(int a, int b, int* arr) 
+int partition(int * A, int left, int right)
 {
-    if(a>=b) return;
+    int k = left + rand() % (right - left + 1);
+    int pivot = A[k];
 
-    //Выбор опорного элемента
-    int m = arr[(a + b) / 2];
-    //Пресорт
-    int l = a - 1;
-    int r = b + 1;
-    while(true) {
-        do l++; while(arr[l] < m);
-        do r--; while(arr[r] > m);
-        if(l >= r) break;
-        swap(arr[l], arr[r]);
+    int i = left;
+    int j = right;
+
+    while (i <= j) {
+        while (A[i] < pivot) i++;
+        while (A[j] > pivot) j--;
+        if (i >= j) break;
+        swap(A[i++], A[j--]);
     }
-    l = r;
-    r++;
-    QuickSort(a, l, arr);
-    QuickSort(r, b, arr);
 
+    return j;
+}
+
+void quicksort(int * A, int left, int right)
+{
+    if (left < right) {
+        int q = partition(A, left, right);
+        quicksort(A, left, q);
+        quicksort(A, q + 1, right);
+    }
 }
 
 int main()
 {
-	const int n = 5;
-    int arr[n] = {2, 3, 1, 4, 6};
-    QuickSort(0, n-1, arr);
+    int A[] = {10, 8, 6, 4, 9, 7, 1, 5, 3};
+    quicksort(A, 0, 8);
 
-    for(int i = 0; i < n; i++)
-        cout << arr[i] << " ";
-    cout << endl;
+    for (int i = 0; i <= 8; i++) cout << A[i] << " ";
 
     return 0;
 }
