@@ -68,7 +68,6 @@ int main()
 
     std::cout << table[ie][je] << std::endl;
 
-    std::cout << "lox";
     
     return 0;
 }
