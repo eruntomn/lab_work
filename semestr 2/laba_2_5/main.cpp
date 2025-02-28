@@ -149,18 +149,73 @@ public:
             else _data[i] = 0;
         }
     }
-    
+    friend MyVector operator + (const MyVector& a, const MyVector& b)
+        {
+            MyVector result;
+            if(a._size == b._size)
+            {
+                for (int i = 0; i < a._size; i++)
+                    result.push_back(a._data[i]+b._data[i]);
+            }
+            return result;
+        }
+
+
+    friend int operator * (const MyVector& a, const MyVector& b) //скалярное произведение
+    {
+        int result = 0;
+        if(a._size == b._size)
+        {
+            for(int i = 0; i < a._size; i++)
+                result += a._data[i]*b._data[i];
+        }
+        return result;
+    }
+    friend MyVector operator * (const MyVector& a, const int& b) //умножение на число
+    {
+        MyVector result;
+        for(int i = 0; i < a._size; i++)
+        {
+            result.push_back(a._data[i]*b);
+        }
+        return result;
+    }
+    friend MyVector operator - (const MyVector& a, const MyVector& b)
+    {
+        MyVector result;
+        if(a._size == b._size)
+        {
+            for (int i = 0; i < a._size; i++)
+                result.push_back(a._data[i]-b._data[i]);
+        }
+        return result;
+    }
+
     void insert(int x, int value)
     {
-        if (x == _size) _data.push_back(x);
-        else 
+        if (x == _size-1) push_back(value);
+        else
         {
             int *new_data = new int [_size+1];
-            while (i != x) {
-                new_data = _data[i];
+            for(int i = 0; i < x; i++)
+            {
+                new_data[i] = _data[i];
             }
-                
+            new_data[x] = value;
+            for(int i = x+1; i < _size+1; i++)
+            {
+                new_data[i] = _data[i-1];
+            }
+            delete [] _data;
+            _data = new_data;
+            _size++;
         }
+
+    }
+    bool empty()
+    {
+        if (_size == 0) return true;
+        else return false;
     }
 };
 
