@@ -109,7 +109,7 @@ public:
         }
     }
     
-    void resizeL(int n)
+    void resizeL(int n) //урезает вектор до n;
     {
         if (_size > n) {
             int *new_data = new int [_size-n];
@@ -121,7 +121,7 @@ public:
             _size = n;
         }
     }
-    void resizeR(int n, int value) 
+    void resizeR(int n, int value) //урезает вектор до n; заполняет ёмкость до указанной нужным числом
     {
         if (_size < n) 
         {
@@ -130,7 +130,7 @@ public:
             _size = n;
         }
     }
-    void reserve(int n) 
+    void reserve(int n) //увеличивает ёмкость до указанной
     {
         int a=0; //пустое значение переменной?
         if (_size < n) 
@@ -141,7 +141,7 @@ public:
         }
     }
     
-    void shrink_to_fit(int n)
+    void shrink_to_fit(int n) //уменьшает ёмкость
     {
         for (int i = 0; i < _size; i++) 
         {
